@@ -21,175 +21,337 @@
             display: none;
             /* Chrome, Safari */
         }
+        body {
+  overflow-x: hidden;
+}
     </style>
 </head>
 
 <body>
+
+    <!-- Navbar -->
+<!-- TOP HEADER -->
+<div class="container-fluid text-white py-2 px-3 px-md-5"
+     style="background-color:#fc0015;">
+
+  <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+
+    <!-- Left -->
+    <div class="d-flex align-items-center gap-3">
+      <img src="./images/bakingo-logo-re.svg" style="height:38px;">
+      
+      <div class="d-flex align-items-center">
+        <i class="bi bi-geo-alt me-1 fs-5"></i>
+        <span class="fw-semibold">Delivering To</span>
+        <i class="bi bi-caret-down-fill ms-1"></i>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="flex-grow-1 px-2 d-none d-md-block">
+      <div class="d-flex align-items-center bg-white rounded px-3 w-100"
+           style="height:42px; max-width:600px; margin:auto;">
+        <i class="bi bi-search text-muted fs-5"></i>
+        <input type="text" class="form-control border-0"
+               placeholder="Search For Cakes, Occasion, Flavour And More..."
+               style="font-size:15px;">
+      </div>
+    </div>
+
+    <!-- Icons -->
+    <div class="d-flex align-items-center gap-4 text-center flex-shrink-0">
+      <div>
+        <i class="bi bi-percent fs-4"></i>
+        <div class="fw-semibold">Track Order</div>
+      </div>
+
+      <div>
+        <i class="bi bi-cart fs-4"></i>
+        <div class="fw-semibold">Cart</div>
+      </div>
+
+      <div>
+        <i class="bi bi-person fs-4"></i>
+        <div class="fw-semibold">Login/Signup</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- MOBILE SEARCH -->
+<div class="container-fluid py-2 d-md-none" style="background-color:#fc0015;">
+  <div class="d-flex align-items-center bg-white rounded px-3"
+       style="height:42px;">
+    <i class="bi bi-search text-muted fs-5"></i>
+    <input type="text" class="form-control border-0"
+           placeholder="Search For Cakes..."
+           style="font-size:15px;">
+  </div>
+</div>
+
+<!-- BOTTOM MENU -->
+<div class="container-fluid bg-light py-2">
+  <div class="d-flex flex-nowrap overflow-auto justify-content-center gap-4 text-center px-2"
+       style="font-size:16px; font-weight:500;">
+
+    <span>Cakes</span>
+    <span>Theme Cakes</span>
+    <span>By Relationship</span>
+    <span>Desserts</span>
+    <span>Birthday</span>
+
+    <span class="position-relative">
+      Hampers 
+    </span>
+
+    <span>Anniversary</span>
+    <span>Occasions</span>
+    <span>Customized Cakes</span>
+
+  </div>
+</div>
+     <!-- Navbar -->
+
+
+
+
     <div style="background-color:#ffe8ee;" class="h-100 pb-2">
         <!-- Silder-code -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  
+  <div class="carousel-inner">
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://bkmedia.bakingo.com/anniversary-desktop_0.png" class="d-block w-100"
-                        style="height:650px;" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://bkmedia.bakingo.com/Mango-Banner-web_desktop-banner%20(4).png"
-                        class="d-block w-100" style="height:650px;" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://bkmedia.bakingo.com/3668X1714-Theme-Cake%20(2).png" class="d-block w-100"
-                        style="height:650px;" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+    <div class="carousel-item active">
+      <div class="ratio ratio-21x9">
+        <img src="https://bkmedia.bakingo.com/anniversary-desktop_0.png"
+             class="w-100 h-100"
+             style="object-fit:cover;" alt="">
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="ratio ratio-21x9">
+        <img src="https://bkmedia.bakingo.com/Mango-Banner-web_desktop-banner%20(4).png"
+             class="w-100 h-100"
+             style="object-fit:cover;" alt="">
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="ratio ratio-21x9">
+        <img src="https://bkmedia.bakingo.com/3668X1714-Theme-Cake%20(2).png"
+             class="w-100 h-100"
+             style="object-fit:cover;" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
         <!-- Silder-code -->
-        <div class="container text-center my-4">
-            <h1 style="color:#ec0628;" class="fs-1">menu</h1>
-            <p class="fs-3" style="font-family: system-ui-apple-system; color: #807b89;">What will you wish for?</p>
+      <div class="container text-center my-4">
+    <h1 class="fs-2 fs-md-1 text-danger">Menu</h1>
+    <p class="fs-3 fs-md-3 text-muted">What will you wish for?</p>
+</div>
+
+<div class="container my-4 my-md-5">
+    <div class="row g-3 g-md-5">
+
+        <div class="col-6 col-md-3">
+            <div class="card border rounded-3 shadow-sm h-100">
+
+                <div class="ratio ratio-1x1">
+                    <img src="./images/classic.webp" 
+                         class="w-100 h-100" 
+                         style="object-fit:cover;">
+                </div>
+
+                <div class="card-body py-2 py-md-3">
+                    <p class="text-center fw-bold mb-0">CLASSIC</p>
+                </div>
+            </div>
         </div>
-        <!--  -->
 
-        <div class="container my-5">
+        <div class="col-6 col-md-3">
+            <div class="card border rounded-3 shadow-sm h-100">
 
-            <div class="row">
-
-                <div class="col">
-                    <div class="card border rounded-3 shadow-sm " style="width: 17rem;">
-                        <img src="./images/classic.webp" class="card-img-top" style="height:280px; object-fit:cover">
-                        <div class="card-body">
-                            <p class="card-text text-center fs-5 fw-bold" style="color:#170f1a;">CLASSIC</p>
-                        </div>
-                    </div>
-                </div>
-                <!--  -->
-                <div class="col">
-                    <div class="card border rounded-3 shadow-sm" style="width: 17rem;">
-                        <img src="./images/grourmet.webp" class="card-img-top" style="height:280px; object-fit:cover">
-                        <div class="card-body">
-                            <p class="card-text text-center fs-5 fw-bold" style="color:#170f1a;">GOURMET</p>
-                        </div>
-                    </div>
+                <div class="ratio ratio-1x1">
+                    <img src="./images/grourmet.webp" 
+                         class="w-100 h-100" 
+                         style="object-fit:cover;">
                 </div>
 
-                <!--  -->
-
-                <div class="col">
-                    <div class="card border rounded-3 shadow-sm" style="width:17rem;">
-                        <img src="./images/designer.webp" class="card-img-top" style="height:280px; object-fit:cover">
-                        <div class="card-body">
-                            <p class="card-text text-center fs-5 fw-bold" style="color:#170f1a;">DESIGNER</p>
-                        </div>
-                    </div>
+                <div class="card-body py-2 py-md-3">
+                    <p class="text-center fw-bold mb-0">GOURMET</p>
                 </div>
-
-
-
-                <!--  -->
-
-                <div class="col">
-                    <div class="card border rounded-3 shadow-sm" style="width:17rem;">
-                        <img src="./images/desserts.webp" class="card-img-top" style="height:280px; object-fit:cover">
-                        <div class="card-body">
-                            <p class="card-text text-center fs-5 fw-bold" style="color:#170f1a;">DESSERTS</p>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
-
-
-
         </div>
-    </div>
-    <!--  -->
-    <div class="container text-center my-5">
-        <p class="fw-bold fs-1" style="color:#ec0628;">India Loves</p>
-        <p class="fs-2" style="letter-spacing:1px;">Bestsellers from across the country</p>
-    </div>
 
-    <!--  -->
-    <div class="container-fluid mt-3">
-        <!-- <div class="d-flex  overflow-scroll gap-3 "> -->
-        <div class="d-flex flex-nowrap overflow-auto gap-3 hide-scrollbar">
+        <div class="col-6 col-md-3">
+            <div class="card border rounded-3 shadow-sm h-100">
 
-            <div class="card flex-shrink-0" style="width:260px; height:390px;">
-                <img src="./images/choco-truffle-cake.webp" class="card-img-top">
-                <div class="card-body">
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">Rich Chocolate Truffle Cake</p>
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">₹549</p>
+                <div class="ratio ratio-1x1">
+                    <img src="./images/designer.webp" 
+                         class="w-100 h-100" 
+                         style="object-fit:cover;">
+                </div>
+
+                <div class="card-body py-2 py-md-3">
+                    <p class="text-center fw-bold mb-0">DESIGNER</p>
                 </div>
             </div>
-
-            <div class="card flex-shrink-0" style="width: 260px; height:390px">
-                <img src="./images/choco-vanilla-cake.webp" class="card-img-top">
-                <div class="card-body">
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">Chocolate Vanilla Half & Half </p>
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">₹549</p>
-                </div>
-            </div>
-
-            <div class="card flex-shrink-0" style="width: 260px; height:390px">
-                <img src="./images/chocolate-chip-cake.webp" class="card-img-top">
-                <div class="card-body">
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">Choco Chip Truffle Cake</p>
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">₹549</p>
-                </div>
-            </div>
-
-            <div class="card flex-shrink-0" style="width: 260px; height:390px">
-                <img src="./images/fresh-fruit-cake.webp" class="card-img-top">
-                <div class="card-body">
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">Tropical Fruit n Almond Cak..</p>
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">₹549</p>
-                </div>
-            </div>
-
-            <div class="card flex-shrink-0" style="width: 260px; height:390px">
-                <img src="./images/pista-topped-rasmalai-cake-.webp" class="card-img-top">
-                <div class="card-body">
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">Rose Petals N Pistachio Rasm..</p>
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">₹549</p>
-                </div>
-            </div>
-
-            <div class="card flex-shrink-0" style="width: 260px; height:390px">
-                <img src="./images/sq-pineapple-cake.webp" class="card-img-top">
-                <div class="card-body">
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">Whipped Cream Pineapple..</p>
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">₹549</p>
-                </div>
-            </div>
-
-
-            <div class="card flex-shrink-0" style="width: 260px; height:390px">
-                <img src="./images/black-forest-cake0001chbl-AAAA1.webp" class="card-img-top">
-                <div class="card-body">
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">Classic Black Forest Cake</p>
-                    <p class="fw-bold" style="font-size:17px; letter-spacing: 1px;">₹549</p>
-                </div>
-            </div>
-
         </div>
+
+        <div class="col-6 col-md-3">
+            <div class="card border rounded-3 shadow-sm h-100">
+
+                <div class="ratio ratio-1x1">
+                    <img src="./images/desserts.webp" 
+                         class="w-100 h-100" 
+                         style="object-fit:cover;">
+                </div>
+
+                <div class="card-body py-2 py-md-3">
+                    <p class="text-center fw-bold mb-0">DESSERTS</p>
+                </div>
+            </div>
+        </div>
+
     </div>
+</div>
+    <!--  -->
+    <!-- HEADING -->
+<div class="container text-center my-5">
+    <p class="fw-bold fs-2 fs-md-1" style="color:#ec0628;">India Loves</p>
+    <p class="fs-4 fs-md-2" style="letter-spacing:1px;">
+        Bestsellers from across the country
+    </p>
+</div>
+
+<!-- SCROLL CARDS -->
+<div class="container-fluid mt-3 px-3 px-md-4">
+
+    <div class="d-flex flex-nowrap overflow-auto gap-3 pb-2 hide-scrollbar">
+
+        <!-- CARD 1 -->
+        <div class="card flex-shrink-0 border-0 shadow-sm" style="width:240px;">
+            <div class="ratio ratio-1x1">
+                <img src="./images/choco-truffle-cake.webp"
+                     class="w-100 h-100" style="object-fit:cover;">
+            </div>
+            <div class="card-body px-2">
+                <p class="fw-bold mb-1" style="font-size:15px;">
+                    Rich Chocolate Truffle Cake
+                </p>
+                <p class="fw-bold mb-0" style="font-size:15px;">₹549</p>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card flex-shrink-0 border-0 shadow-sm" style="width:240px;">
+            <div class="ratio ratio-1x1">
+                <img src="./images/choco-vanilla-cake.webp"
+                     class="w-100 h-100" style="object-fit:cover;">
+            </div>
+            <div class="card-body px-2">
+                <p class="fw-bold mb-1" style="font-size:15px;">
+                    Chocolate Vanilla Half & Half
+                </p>
+                <p class="fw-bold mb-0" style="font-size:15px;">₹549</p>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card flex-shrink-0 border-0 shadow-sm" style="width:240px;">
+            <div class="ratio ratio-1x1">
+                <img src="./images/chocolate-chip-cake.webp"
+                     class="w-100 h-100" style="object-fit:cover;">
+            </div>
+            <div class="card-body px-2">
+                <p class="fw-bold mb-1" style="font-size:15px;">
+                    Choco Chip Truffle Cake
+                </p>
+                <p class="fw-bold mb-0" style="font-size:15px;">₹549</p>
+            </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card flex-shrink-0 border-0 shadow-sm" style="width:240px;">
+            <div class="ratio ratio-1x1">
+                <img src="./images/fresh-fruit-cake.webp"
+                     class="w-100 h-100" style="object-fit:cover;">
+            </div>
+            <div class="card-body px-2">
+                <p class="fw-bold mb-1" style="font-size:15px;">
+                    Tropical Fruit n Almond Cake
+                </p>
+                <p class="fw-bold mb-0" style="font-size:15px;">₹549</p>
+            </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="card flex-shrink-0 border-0 shadow-sm" style="width:240px;">
+            <div class="ratio ratio-1x1">
+                <img src="./images/pista-topped-rasmalai-cake-.webp"
+                     class="w-100 h-100" style="object-fit:cover;">
+            </div>
+            <div class="card-body px-2">
+                <p class="fw-bold mb-1" style="font-size:15px;">
+                    Rose Petals N Pistachio Rasmalai
+                </p>
+                <p class="fw-bold mb-0" style="font-size:15px;">₹549</p>
+            </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="card flex-shrink-0 border-0 shadow-sm" style="width:240px;">
+            <div class="ratio ratio-1x1">
+                <img src="./images/sq-pineapple-cake.webp"
+                     class="w-100 h-100" style="object-fit:cover;">
+            </div>
+            <div class="card-body px-2">
+                <p class="fw-bold mb-1" style="font-size:15px;">
+                    Whipped Cream Pineapple Cake
+                </p>
+                <p class="fw-bold mb-0" style="font-size:15px;">₹549</p>
+            </div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="card flex-shrink-0 border-0 shadow-sm" style="width:240px;">
+            <div class="ratio ratio-1x1">
+                <img src="./images/black-forest-cake0001chbl-AAAA1.webp"
+                     class="w-100 h-100" style="object-fit:cover;">
+            </div>
+            <div class="card-body px-2">
+                <p class="fw-bold mb-1" style="font-size:15px;">
+                    Classic Black Forest Cake
+                </p>
+                <p class="fw-bold mb-0" style="font-size:15px;">₹549</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
     <!--  -->
 
-    <div class="container-fluid d-flex justify-content-center" style=" margin:80px 0px;">
-        <img src="./images/BK_Homepage_Promo_Banner_D.webp" class="img-fluid object-fit-cover"
-            style="width:85%; height:210px;">
-    </div>
+   <div class="container-fluid d-flex justify-content-center my-5">
+
+    <img src="./images/BK_Homepage_Promo_Banner_D.webp"
+         class="img-fluid rounded"
+         style="width:85%; height:25vh; max-height:210px; object-fit:fill;">
+
+</div>
     <!--  -->
 
     <div class="container-fluid h-100 " style="background-color: #feece8; padding-bottom:30px;">
@@ -238,14 +400,19 @@
         </div>
     </div>
     <!--  -->
+<div class="container-fluid d-flex justify-content-center mb-4">
 
-    <div class="container-fluid d-flex justify-content-center" style=" margin:80px 0px;">
-        <img src="./images/occ-rem-desktop.webp" class="img-fluid object-fit-cover" style="width:85%; height:500px;">
-    </div>
+    <img src="./images/occ-rem-desktop.webp"
+         class="img-fluid"
+         style="width:85%; max-height:500px;">
+
+</div>
+
     <!--  -->
+<div class="my-5">
     <p class="text-center fs-2 fw-bold" style="color: #ec0628;">What’s In Your Heart?</p>
     <p class="text-center fs-2" style="color:#737374;">A glimpse from our social world!</p>
-
+</div>
     <!-- 1 -->
 
     <div class="container-fluid mt-5">
