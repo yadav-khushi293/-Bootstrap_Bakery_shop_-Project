@@ -40,7 +40,7 @@ This is a solo project focused on clean UI design, smooth user experience, and r
 <h2>🖼️ Website Preview Images<br></h2>
 
 <h3>🍰 Home Page</h3> 
-<img src="YOUR_IMAGE_LINK_HERE"/>
+<img src="https://github.com/yadav-khushi293/khushi/blob/main/Boostraps/Screenshot%202026-04-26%20144800.png?raw=true"/>
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -49,18 +49,18 @@ This is a solo project focused on clean UI design, smooth user experience, and r
 <table>
   <tr>
     <td>
-      <img src="YOUR_IMAGE_LINK_HERE" width="500" height="400">
+      <img src="https://github.com/yadav-khushi293/khushi/blob/main/Boostraps/Screenshot%202026-04-26%20144832.png?raw=true" width="500" height="400">
     </td>
     <td>
-      <img src="YOUR_IMAGE_LINK_HERE" width="500" height="400">
+      <img src="https://github.com/yadav-khushi293/khushi/blob/main/Boostraps/Screenshot%202026-04-26%20144913.png?raw=true" width="500" height="400">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="YOUR_IMAGE_LINK_HERE" width="500" height="400">
+      <img src="https://github.com/yadav-khushi293/khushi/blob/main/Boostraps/Screenshot%202026-04-26%20144943.png?raw=true" width="500" height="400">
     </td>
     <td>
-      <img src="YOUR_IMAGE_LINK_HERE" width="500" height="400">
+      <img src="https://github.com/yadav-khushi293/khushi/blob/main/Boostraps/Screenshot%202026-04-26%20145007.png?raw=true" width="500" height="400">
     </td>
   </tr>
 </table>
