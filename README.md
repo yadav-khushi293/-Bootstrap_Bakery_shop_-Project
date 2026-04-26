@@ -26,13 +26,13 @@ This is a solo project focused on clean UI design, smooth user experience, and r
 <br>
 
 ✨ HTML5  
-<br><br>
+<br>
 ✨ CSS3  
-<br><br>
+<br>
 ✨ Bootstrap 5  
-<br><br>
+<br>
 ✨ JavaScript (Fetch API)  
-<br><br>
+<br>
 ✨ JSON (Custom Database)  
 
 <hr>
